@@ -199,7 +199,7 @@ a {
 .footer__copyright {
     font-size: 1rem;
 }
-/* MEDIA QUERIES */
+/* MEDIA QUERIES
 @media screen and (min-width: 768px) {
     .header {
         padding: 2rem 3rem;
@@ -261,20 +261,20 @@ a {
 
 @media screen and (min-width: 1024px) {
 /* CORE STYLES */
-    body {
+    /* body {
         display: grid;
         grid-template-rows: 1fr 1fr 3rem;
         grid-template-columns: 5rem 1fr 1rem;
         grid-template-areas: "nav header ."
                              "nav projects ."
                             "nav footer footer";
-    }
+    } */ */
 /* NAV */
-    .nav {
-        background: #0099F7;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
-        position: fixed;
+    /* .nav { */
+        /* background: #0099F7;  fallback for old browsers */
+        /* background: -webkit-linear-gradient(to bottom, #F11712, #0099F7);  Chrome 10-25, Safari 5.1-6 */
+        /* background: linear-gradient(to bottom, #F11712, #0099F7); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+    */
+        /* position: fixed;
         width: 5rem;
         height: 100%;
     }
@@ -305,9 +305,9 @@ a {
 
     .nav__item-footer {
         display: block;
-    }
+    } */ */
 /* HEADER */
-    .header {
+    /* .header {
         padding: 8rem 3rem;
     }
     
@@ -333,9 +333,9 @@ a {
         line-height: 1.7;
         margin: 1.5rem 0;
         max-width: 700px;
-    }
+    } */
 /* PROJECTS */
-.projects {
+/* .projects {
     grid-area: projects;
     padding-left: 3rem;
     display: grid;
@@ -372,10 +372,10 @@ a {
 .img__wrap:hover .img__description {
     visibility: visible;
     opacity: 1;
-}
+} */
 
 /* FOOTER */
-    .footer {
+    /* .footer {
         background: #fff;
     }
 
@@ -386,4 +386,4 @@ a {
     .footer__copyright {
         color: #000;
     }
-};
+}; */
