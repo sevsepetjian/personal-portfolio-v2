@@ -357,10 +357,11 @@ a {
         transform: translateY(20px);
         transition: .5s all ease-in-out;
         display: grid;
-            grid-template-rows: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
             grid-template-columns:  1fr 1fr;
             grid-template-areas: " proj1 proj2 "
-                                    " proj3 proj4 ";
+                                 " proj3 proj4 "
+                                 " proj5 .";
     }
 
     .projects__appear {
@@ -386,6 +387,10 @@ a {
 
     .proj4 {
         grid-area: proj4;
+    }
+
+    .proj5 {
+        grid-area: proj5;
     }
 
     .img__wrap {
