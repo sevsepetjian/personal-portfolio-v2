@@ -361,7 +361,7 @@ a {
             grid-template-columns:  1fr 1fr;
             grid-template-areas: " proj1 proj2 "
                                  " proj3 proj4 "
-                                 " proj5 .";
+                                 " proj5 proj6";
     }
 
     .projects__appear {
@@ -391,6 +391,10 @@ a {
 
     .proj5 {
         grid-area: proj5;
+    }
+
+    .proj6 {
+        grid-area: proj6;
     }
 
     .img__wrap {
